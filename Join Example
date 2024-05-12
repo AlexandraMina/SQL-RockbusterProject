@@ -1,0 +1,34 @@
+# SQL query to find the top 10 countries for Rockbuster in terms of customer numbers
+
+SELECT D.country, COUNT(customer_id) AS Nr_Customers
+FROM customer AS A 
+LEFT JOIN address AS B ON A.address_id=B.address_id
+LEFT JOIN city AS C ON B.city_id=C.city_id
+LEFT JOIN country AS D ON C.country_id=D.country_id
+GROUP BY country
+ORDER BY Nr_Customers DESC
+LIMIT 10;
+
+
+# SQL query to identify the top 10 cities that fall within the top 10 countries from the query above
+
+SELECT D.country, COUNT(customer_id) AS Nr_Customers
+FROM customer AS A 
+LEFT JOIN address AS B ON A.address_id=B.address_id
+LEFT JOIN city AS C ON B.city_id=C.city_id
+LEFT JOIN country AS D ON C.country_id=D.country_id
+WHERE D.country IN ('India', 'China', 'United States', 'Japan', 'Mexico', 'Brazil',
+                    'Russian Federation', 'Philippines', 'Turkey', 'Indonesia')
+GROUP BY country, city
+ORDER BY Nr_Customers DESC
+LIMIT 10;
+
+
+# SQL query to find the top 5 customers from the top 10 cities above who’ve paid the highest total amounts to Rockbuster
+
+SELECT D.country, COUNT(customer_id) AS Nr_Customers
+FROM customer AS A 
+LEFT JOIN address AS B ON A.address_id=B.address_id
+LEFT JOIN city AS C ON B.city_id=C.city_id
+LEFT JOIN country AS D ON C.country_id=D.country_id
+WHERE C.city IN (
