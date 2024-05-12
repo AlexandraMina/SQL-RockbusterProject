@@ -15,10 +15,14 @@ The  Rockbuster  Stealth  Management  Board  has  asked  a  series  of  business
 ● Do  sales  figures  vary  between  geographic  regions?  
 
 **CONTEXT**
+
 To answer the questions posed by the different departments, you’ll query the data using SQL (structured  query  language). Throughout this Achievement, you’ll learn SQL incrementally, and you’ll use it to answer increasingly complex business questions for  each task.  The  results  of  your  analysis  will  be  presented  to  Rockbuster  management,  so  you’ll need to visualize the data in an easy-to-consume manner. In other words, you’ll  build on what you’ve  learned  in  previous  Achievements.  
 
 Although  you’ll  be  working  with  data  from  the  online  video  streaming  industry  for  this  project,  the  skills  you  develop  could  be  applied  to  any  industry  and  will  highlight  your  ability to  solve  problems  for  a  variety  of  clients.  The  aim  is  to  give  you  hands-on  experience  with  SQL.  By  the  time  you  finish  your  project,  you’ll  be  able  to  use  SQL  to  perform  various  kinds  of query-based  analyses. 
 
 **DATA SET**
+
 Data set contains information about Rockbuster's film inventory,  customers, and payments, among other things, loades into a PostgreSQL.
+
+
 
