@@ -1,5 +1,6 @@
-# SQL-RockbusterProjec
-![image](https://github.com/AlexandraMina/SQL-RockbusterProject/assets/169406778/1118505c-5244-457b-b26b-ffe79dae01b6)
+# SQL-Rockbuster Projec
+![image](https://github.com/AlexandraMina/SQL-RockbusterProject/assets/169406778/61cfc57a-4a3f-4ce0-b739-b537738780d1)
+
 
 **INTRODUCTION**
 
