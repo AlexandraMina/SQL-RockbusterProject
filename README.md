@@ -1,4 +1,6 @@
 # SQL- Rockbuster Project
+Analysing data to answer key business questions for Rockbuster business strategy.
+
 SQL has used to analyse the data related to a movie rental company, Rockbuster Stealth LLC. The visualizations were created using Tableau. 
 A presentation was created to highlight the findings and present recommendations for the business managers of Rockbuster. Also an Excel file was created for technical colleagues, containing the SQL queries built and the data outputs. In the project also a Data Dictionary was created.
 
